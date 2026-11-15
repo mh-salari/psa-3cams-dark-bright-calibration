@@ -1,0 +1,251 @@
+{
+  "images": {
+    "data/cameras/cam1/artificial_eye_left.png": {},
+    "data/cameras/cam1/artificial_eye_left_2026-05-15.png": {},
+    "data/cameras/cam1/artificial_eye_left_a.png": {},
+    "data/cameras/cam1/artificial_eye_left_b.png": {},
+    "data/cameras/cam1/artificial_eye_right.png": {},
+    "data/cameras/cam1/artificial_eye_right_2026-05-15.png": {},
+    "data/cameras/cam1/artificial_eye_right_a.png": {},
+    "data/cameras/cam1/artificial_eye_right_b.png": {},
+    "data/cameras/cam2/artificial_eye_left.png": {},
+    "data/cameras/cam2/artificial_eye_left_2026-05-15.png": {},
+    "data/cameras/cam2/artificial_eye_left_a.png": {},
+    "data/cameras/cam2/artificial_eye_left_b.png": {},
+    "data/cameras/cam2/artificial_eye_right.png": {},
+    "data/cameras/cam2/artificial_eye_right_2026-05-15.png": {},
+    "data/cameras/cam2/artificial_eye_right_a.png": {},
+    "data/cameras/cam2/artificial_eye_right_b.png": {}
+  },
+  "binocular_mode": false,
+  "divider_x_norm": 0.5,
+  "autosave": true,
+  "detectors": {
+    "pupil": {
+      "id": "Simple",
+      "params": {
+        "left": null,
+        "right": null,
+        "single": {
+          "pupil_threshold": 16,
+          "pupil_center_method": "convex_hull_centroid",
+          "min_ellipse_fit_ratio": null,
+          "min_roundness_ratio": null,
+          "max_contour_points": 4096
+        }
+      },
+      "pinned": [],
+      "overlays": {
+        "ElSe": {
+          "ellipse": {
+            "show": true,
+            "color": "#ffff00",
+            "alpha": 1.0,
+            "thickness": 1,
+            "type": "line"
+          },
+          "center": {
+            "show": true,
+            "color": "#00ff00",
+            "alpha": 1.0,
+            "thickness": 1,
+            "type": "point"
+          }
+        },
+        "ExCuSe": {
+          "ellipse": {
+            "show": true,
+            "color": "#ffff00",
+            "alpha": 1.0,
+            "thickness": 1,
+            "type": "line"
+          },
+          "center": {
+            "show": true,
+            "color": "#00ff00",
+            "alpha": 1.0,
+            "thickness": 1,
+            "type": "point"
+          }
+        },
+        "PuRe": {
+          "ellipse": {
+            "show": true,
+            "color": "#ffff00",
+            "alpha": 1.0,
+            "thickness": 1,
+            "type": "line"
+          },
+          "center": {
+            "show": true,
+            "color": "#00ff00",
+            "alpha": 1.0,
+            "thickness": 1,
+            "type": "point"
+          }
+        },
+        "PuReST": {
+          "ellipse": {
+            "show": true,
+            "color": "#ffff00",
+            "alpha": 1.0,
+            "thickness": 1,
+            "type": "line"
+          },
+          "center": {
+            "show": true,
+            "color": "#00ff00",
+            "alpha": 1.0,
+            "thickness": 1,
+            "type": "point"
+          }
+        },
+        "PupilLabs2D": {
+          "ellipse": {
+            "show": true,
+            "color": "#ffff00",
+            "alpha": 1.0,
+            "thickness": 1,
+            "type": "line"
+          },
+          "center": {
+            "show": true,
+            "color": "#00ff00",
+            "alpha": 1.0,
+            "thickness": 1,
+            "type": "point"
+          }
+        },
+        "Simple": {
+          "contour": {
+            "show": false,
+            "color": "#00ff00",
+            "alpha": 0.28,
+            "thickness": 1,
+            "type": "line"
+          },
+          "ellipse": {
+            "show": true,
+            "color": "#ffff00",
+            "alpha": 0.78,
+            "thickness": 1,
+            "type": "line"
+          },
+          "center": {
+            "show": true,
+            "color": "#00ff00",
+            "alpha": 1.0,
+            "thickness": 1,
+            "type": "point"
+          },
+          "mask": {
+            "show": false,
+            "color": "#00c800",
+            "alpha": 0.5,
+            "thickness": 0,
+            "type": "fill"
+          }
+        },
+        "Starburst": {
+          "contour": {
+            "show": true,
+            "color": "#00ff00",
+            "alpha": 1.0,
+            "thickness": 1,
+            "type": "line"
+          },
+          "ellipse": {
+            "show": true,
+            "color": "#ffff00",
+            "alpha": 1.0,
+            "thickness": 1,
+            "type": "line"
+          },
+          "center": {
+            "show": true,
+            "color": "#00ff00",
+            "alpha": 1.0,
+            "thickness": 1,
+            "type": "point"
+          }
+        },
+        "Swirski2D": {
+          "contour": {
+            "show": true,
+            "color": "#00ff00",
+            "alpha": 1.0,
+            "thickness": 1,
+            "type": "line"
+          },
+          "ellipse": {
+            "show": true,
+            "color": "#ffff00",
+            "alpha": 1.0,
+            "thickness": 1,
+            "type": "line"
+          },
+          "center": {
+            "show": true,
+            "color": "#00ff00",
+            "alpha": 1.0,
+            "thickness": 1,
+            "type": "point"
+          }
+        },
+        "manual": {
+          "points": {
+            "show": true,
+            "color": "#96d574",
+            "alpha": 1.0,
+            "thickness": 2,
+            "type": "point"
+          },
+          "ellipse": {
+            "show": true,
+            "color": "#199132",
+            "alpha": 1.0,
+            "thickness": 1,
+            "type": "line"
+          },
+          "center": {
+            "show": true,
+            "color": "#b4f050",
+            "alpha": 1.0,
+            "thickness": 2,
+            "type": "point"
+          }
+        }
+      }
+    },
+    "glint": {
+      "id": "off",
+      "params": {
+        "left": null,
+        "right": null,
+        "single": null
+      },
+      "pinned": [],
+      "overlays": {}
+    },
+    "limbus": {
+      "id": "off",
+      "params": {
+        "left": null,
+        "right": null,
+        "single": null
+      },
+      "pinned": [],
+      "overlays": {}
+    },
+    "eyelid": {
+      "id": "off",
+      "params": {
+        "left": null,
+        "right": null,
+        "single": null
+      },
+      "pinned": [],
+      "overlays": {}
+    }
+  }
+}

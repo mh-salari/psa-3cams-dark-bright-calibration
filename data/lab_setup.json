@@ -1,0 +1,55 @@
+{
+  "_reference_frame": "Lab-friendly inputs: table surface = vertical reference, screen-centre vertical line = horizontal reference (+ = participant's right when facing the screen), screen front face = distance reference. The loader converts these to PyEtSimul's screen-centre (x, y, z): x = horizontal_from_screen_center_mm (already signed); y = distance_from_screen_mm; z = height_above_table_mm - screen.centre_above_table_mm.",
+  "screen": {
+    "res_px": [
+      1920,
+      1080
+    ],
+    "width_mm": 531.36,
+    "height_mm": 298.98,
+    "centre_above_table_mm": 330.0
+  },
+  "participant_default": {
+    "eye_to_screen_top_mm": 830.0,
+    "eye_to_screen_bottom_mm": 845.0,
+    "_note_eye_to_screen": "top/bottom are straight-line distances from the eye to those screen edges (encode screen tilt; consumed by pyelink). The per-eye distance_from_screen_mm below is the perpendicular distance (eye to screen plane) used by PyEtSimul. Within ~5 mm tolerance for this lab.",
+    "eye_left": {
+      "height_above_table_mm": 430.0,
+      "horizontal_from_screen_center_mm": -30.0,
+      "distance_from_screen_mm": 814.0
+    },
+    "eye_right": {
+      "height_above_table_mm": 430.0,
+      "horizontal_from_screen_center_mm": 30.0,
+      "distance_from_screen_mm": 814.0
+    }
+  },
+  "eyelink1000plus": {
+    "camera": {
+      "height_above_table_mm": 230.0,
+      "horizontal_from_screen_center_mm": -115.0,
+      "distance_from_screen_mm": 400.0,
+      "_note": "Overrides pyelink's hardcoded remote_camera_position. The recording script sends `remote_camera_position = -10 17 <hx_cm> <hz_cm> -<distance_cm>` where hx/hz are this camera's position in cm. Units in the SR Research command are centimetres."
+    },
+    "illuminator": {
+      "height_above_table_mm": 232.5,
+      "horizontal_from_screen_center_mm": 75.0,
+      "distance_from_screen_mm": 435.0,
+      "_note": "Documentation only — the illuminator position is fixed by the EyeLink camera bar; pyelink does not configure it. Used by PyEtSimul as the light source position."
+    }
+  },
+  "external_cameras": {
+    "cam1": {
+      "role": "matched to the EyeLink 1000 Plus IR camera position; same axes as the EyeLink camera frame.",
+      "height_above_table_mm": 235.0,
+      "horizontal_from_screen_center_mm": -160.0,
+      "distance_from_screen_mm": 315.0
+    },
+    "cam2": {
+      "role": "head-on, eye-height, centred laterally between the two eyes; axes aligned with the participant's eyes.",
+      "height_above_table_mm": 435.0,
+      "horizontal_from_screen_center_mm": 0.0,
+      "distance_from_screen_mm": 195.0
+    }
+  }
+}

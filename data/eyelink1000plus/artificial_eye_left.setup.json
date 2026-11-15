@@ -1,0 +1,24 @@
+{
+  "eye_flag": "L",
+  "recorded_at": "2026-05-20T14:27:58+00:00",
+  "tool_version": "0.1.1.dev4+g5d3342c11",
+  "filename": "artificial_eye_left",
+  "setup": {
+    "output_dir": "data/eyelink1000plus",
+    "screen_res": [
+      1920,
+      1080
+    ],
+    "screen_width_mm": 531.36,
+    "screen_height_mm": 298.98,
+    "screen_distance_top_mm": 840.0,
+    "screen_distance_bottom_mm": 850.0,
+    "camera_to_screen_distance_mm": 420.0,
+    "artificial_pupil_diameter_mm": 7.0,
+    "duration_s": 10.0,
+    "el_configuration": "MTABLER",
+    "camera_lens_focal_length_mm": 35,
+    "sampling_rate_hz": 1000,
+    "pupil_size_mode": "AREA"
+  }
+}

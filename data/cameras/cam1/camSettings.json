@@ -1,0 +1,2131 @@
+{
+  "type": "CameraGenApi",
+  "friendly_name": "Basler acA2500-60um (40047325)",
+  "device_options": {},
+  "params": [
+    {
+      "name": "SequencerMode",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": "Off"
+    },
+    {
+      "name": "SequencerConfigurationMode",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": "Off"
+    },
+    {
+      "name": "SequencerSetStart",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "SequencerSetNext",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 1
+    },
+    {
+      "name": "SequencerTriggerSource",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": "FrameStart"
+    },
+    {
+      "name": "SequencerTriggerActivation",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": "LevelHigh"
+    },
+    {
+      "name": "SensorWidth",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 2592
+    },
+    {
+      "name": "SensorHeight",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 2048
+    },
+    {
+      "name": "WidthMax",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 2592
+    },
+    {
+      "name": "HeightMax",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 2048
+    },
+    {
+      "name": "Width",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 2496
+    },
+    {
+      "name": "Height",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 600
+    },
+    {
+      "name": "OffsetX",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0
+    },
+    {
+      "name": "OffsetY",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 210
+    },
+    {
+      "name": "CenterX",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "CenterY",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "BinningHorizontalMode",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Average"
+    },
+    {
+      "name": "BinningHorizontal",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 1
+    },
+    {
+      "name": "BinningVerticalMode",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Average"
+    },
+    {
+      "name": "BinningVertical",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 1
+    },
+    {
+      "name": "ReverseX",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": true
+    },
+    {
+      "name": "ReverseY",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "PixelFormat",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Mono8"
+    },
+    {
+      "name": "PixelSize",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": "Bpp8"
+    },
+    {
+      "name": "PixelColorFilter",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": "None"
+    },
+    {
+      "name": "PixelDynamicRangeMin",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "PixelDynamicRangeMax",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 255
+    },
+    {
+      "name": "TestImageResetAndHold",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": false
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone0"
+    },
+    {
+      "name": "ROIZoneMode",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone1"
+    },
+    {
+      "name": "ROIZoneMode",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone2"
+    },
+    {
+      "name": "ROIZoneMode",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone3"
+    },
+    {
+      "name": "ROIZoneMode",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone4"
+    },
+    {
+      "name": "ROIZoneMode",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone5"
+    },
+    {
+      "name": "ROIZoneMode",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone6"
+    },
+    {
+      "name": "ROIZoneMode",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone7"
+    },
+    {
+      "name": "ROIZoneMode",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone0"
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone0"
+    },
+    {
+      "name": "ROIZoneSize",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 4
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone1"
+    },
+    {
+      "name": "ROIZoneSize",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 4
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone2"
+    },
+    {
+      "name": "ROIZoneSize",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 4
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone3"
+    },
+    {
+      "name": "ROIZoneSize",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 4
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone4"
+    },
+    {
+      "name": "ROIZoneSize",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 4
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone5"
+    },
+    {
+      "name": "ROIZoneSize",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 4
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone6"
+    },
+    {
+      "name": "ROIZoneSize",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 4
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone7"
+    },
+    {
+      "name": "ROIZoneSize",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 4
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone0"
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone0"
+    },
+    {
+      "name": "ROIZoneOffset",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone1"
+    },
+    {
+      "name": "ROIZoneOffset",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone2"
+    },
+    {
+      "name": "ROIZoneOffset",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone3"
+    },
+    {
+      "name": "ROIZoneOffset",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone4"
+    },
+    {
+      "name": "ROIZoneOffset",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone5"
+    },
+    {
+      "name": "ROIZoneOffset",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone6"
+    },
+    {
+      "name": "ROIZoneOffset",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone7"
+    },
+    {
+      "name": "ROIZoneOffset",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0
+    },
+    {
+      "name": "ROIZoneSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Zone0"
+    },
+    {
+      "name": "GainAuto",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "GainSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "All"
+    },
+    {
+      "name": "Gain",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0.0
+    },
+    {
+      "name": "GainSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "All"
+    },
+    {
+      "name": "BlackLevelSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "All"
+    },
+    {
+      "name": "BlackLevel",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 1.0
+    },
+    {
+      "name": "BlackLevelSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "All"
+    },
+    {
+      "name": "Gamma",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 1.0
+    },
+    {
+      "name": "PgiMode",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "AcquisitionMode",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": "Continuous"
+    },
+    {
+      "name": "ShutterMode",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Global"
+    },
+    {
+      "name": "ExposureAuto",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "ExposureMode",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Timed"
+    },
+    {
+      "name": "ExposureTime",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 5000.0
+    },
+    {
+      "name": "SensorReadoutMode",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Normal"
+    },
+    {
+      "name": "AcquisitionBurstFrameCount",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 1
+    },
+    {
+      "name": "TriggerSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "FrameBurstStart"
+    },
+    {
+      "name": "TriggerMode",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "TriggerSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "FrameStart"
+    },
+    {
+      "name": "TriggerMode",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "TriggerSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "FrameStart"
+    },
+    {
+      "name": "TriggerSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "FrameBurstStart"
+    },
+    {
+      "name": "TriggerSource",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Line1"
+    },
+    {
+      "name": "TriggerSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "FrameStart"
+    },
+    {
+      "name": "TriggerSource",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Line1"
+    },
+    {
+      "name": "TriggerSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "FrameStart"
+    },
+    {
+      "name": "TriggerSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "FrameBurstStart"
+    },
+    {
+      "name": "TriggerActivation",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "RisingEdge"
+    },
+    {
+      "name": "TriggerSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "FrameStart"
+    },
+    {
+      "name": "TriggerActivation",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "RisingEdge"
+    },
+    {
+      "name": "TriggerSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "FrameStart"
+    },
+    {
+      "name": "TriggerDelay",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0.0
+    },
+    {
+      "name": "AcquisitionFrameRateEnable",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": true
+    },
+    {
+      "name": "AcquisitionFrameRate",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 100.0
+    },
+    {
+      "name": "ResultingFrameRate",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 100.0
+    },
+    {
+      "name": "SensorReadoutTime",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 6095.0
+    },
+    {
+      "name": "AcquisitionStatus",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": false
+    },
+    {
+      "name": "AutoTargetBrightness",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0.5019607843137255
+    },
+    {
+      "name": "AutoFunctionProfile",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "MinimizeGain"
+    },
+    {
+      "name": "AutoGainLowerLimit",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0.0
+    },
+    {
+      "name": "AutoGainUpperLimit",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 12.009207563363388
+    },
+    {
+      "name": "AutoExposureTimeLowerLimit",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 117.0
+    },
+    {
+      "name": "AutoExposureTimeUpperLimit",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 500000.0
+    },
+    {
+      "name": "AutoFunctionROISelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "ROI1"
+    },
+    {
+      "name": "AutoFunctionROIWidth",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 2592
+    },
+    {
+      "name": "AutoFunctionROISelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "ROI2"
+    },
+    {
+      "name": "AutoFunctionROIWidth",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 2592
+    },
+    {
+      "name": "AutoFunctionROISelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "ROI1"
+    },
+    {
+      "name": "AutoFunctionROISelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "ROI1"
+    },
+    {
+      "name": "AutoFunctionROIHeight",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 2048
+    },
+    {
+      "name": "AutoFunctionROISelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "ROI2"
+    },
+    {
+      "name": "AutoFunctionROIHeight",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 2048
+    },
+    {
+      "name": "AutoFunctionROISelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "ROI1"
+    },
+    {
+      "name": "AutoFunctionROISelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "ROI1"
+    },
+    {
+      "name": "AutoFunctionROIOffsetX",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0
+    },
+    {
+      "name": "AutoFunctionROISelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "ROI2"
+    },
+    {
+      "name": "AutoFunctionROIOffsetX",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0
+    },
+    {
+      "name": "AutoFunctionROISelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "ROI1"
+    },
+    {
+      "name": "AutoFunctionROISelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "ROI1"
+    },
+    {
+      "name": "AutoFunctionROIOffsetY",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0
+    },
+    {
+      "name": "AutoFunctionROISelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "ROI2"
+    },
+    {
+      "name": "AutoFunctionROIOffsetY",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0
+    },
+    {
+      "name": "AutoFunctionROISelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "ROI1"
+    },
+    {
+      "name": "AutoFunctionROISelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "ROI1"
+    },
+    {
+      "name": "AutoFunctionROIUseBrightness",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": true
+    },
+    {
+      "name": "AutoFunctionROISelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "ROI2"
+    },
+    {
+      "name": "AutoFunctionROIUseBrightness",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "AutoFunctionROISelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "ROI1"
+    },
+    {
+      "name": "AutoFunctionROISelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "ROI1"
+    },
+    {
+      "name": "AutoFunctionROIUseWhiteBalance",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "AutoFunctionROISelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "ROI2"
+    },
+    {
+      "name": "AutoFunctionROIUseWhiteBalance",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": true
+    },
+    {
+      "name": "AutoFunctionROISelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "ROI1"
+    },
+    {
+      "name": "LUTSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Luminance"
+    },
+    {
+      "name": "LUTEnable",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "LUTSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Luminance"
+    },
+    {
+      "name": "LUTIndex",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "LUTValue",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "LineSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Line1"
+    },
+    {
+      "name": "LineMode",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Input"
+    },
+    {
+      "name": "LineSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Line2"
+    },
+    {
+      "name": "LineMode",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Output"
+    },
+    {
+      "name": "LineSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Line3"
+    },
+    {
+      "name": "LineMode",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Input"
+    },
+    {
+      "name": "LineSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Line4"
+    },
+    {
+      "name": "LineMode",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Input"
+    },
+    {
+      "name": "LineSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Line1"
+    },
+    {
+      "name": "LineFormat",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": "OptoCoupled"
+    },
+    {
+      "name": "LineLogic",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": "Positive"
+    },
+    {
+      "name": "LineSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Line1"
+    },
+    {
+      "name": "LineInverter",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "LineSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Line2"
+    },
+    {
+      "name": "LineInverter",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "LineSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Line3"
+    },
+    {
+      "name": "LineInverter",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "LineSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Line4"
+    },
+    {
+      "name": "LineInverter",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "LineSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Line1"
+    },
+    {
+      "name": "LineSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Line1"
+    },
+    {
+      "name": "LineDebouncerTime",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0.0
+    },
+    {
+      "name": "LineSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Line3"
+    },
+    {
+      "name": "LineDebouncerTime",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0.0
+    },
+    {
+      "name": "LineSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Line4"
+    },
+    {
+      "name": "LineDebouncerTime",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0.0
+    },
+    {
+      "name": "LineSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Line1"
+    },
+    {
+      "name": "LineStatus",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": false
+    },
+    {
+      "name": "LineStatusAll",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 14
+    },
+    {
+      "name": "UserOutputValue",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": false
+    },
+    {
+      "name": "UserOutputValueAll",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0
+    },
+    {
+      "name": "SoftwareSignalPulse",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": null
+    },
+    {
+      "name": "TimerSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Timer1"
+    },
+    {
+      "name": "TimerDuration",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0.0
+    },
+    {
+      "name": "TimerSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Timer1"
+    },
+    {
+      "name": "TimerSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Timer1"
+    },
+    {
+      "name": "TimerDelay",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0.0
+    },
+    {
+      "name": "TimerSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Timer1"
+    },
+    {
+      "name": "TimerSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Timer1"
+    },
+    {
+      "name": "TimerTriggerSource",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "ExposureStart"
+    },
+    {
+      "name": "TimerSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Timer1"
+    },
+    {
+      "name": "CounterSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Counter1"
+    },
+    {
+      "name": "CounterEventSource",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "FrameStart"
+    },
+    {
+      "name": "CounterSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Counter2"
+    },
+    {
+      "name": "CounterEventSource",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "FrameStart"
+    },
+    {
+      "name": "CounterSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Counter1"
+    },
+    {
+      "name": "CounterSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Counter1"
+    },
+    {
+      "name": "CounterResetSource",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "CounterSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Counter2"
+    },
+    {
+      "name": "CounterResetSource",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Counter2End"
+    },
+    {
+      "name": "CounterSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Counter1"
+    },
+    {
+      "name": "CounterResetActivation",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": "RisingEdge"
+    },
+    {
+      "name": "BslLightControlMode",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "BslLightControlSource",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "BslLightControlStatus",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": "Off"
+    },
+    {
+      "name": "BslLightControlErrorStatus",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": "NoError"
+    },
+    {
+      "name": "ChunkModeActive",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "ChunkSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Gain"
+    },
+    {
+      "name": "ChunkEnable",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "ChunkSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "ExposureTime"
+    },
+    {
+      "name": "ChunkEnable",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "ChunkSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Timestamp"
+    },
+    {
+      "name": "ChunkEnable",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "ChunkSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "LineStatusAll"
+    },
+    {
+      "name": "ChunkEnable",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "ChunkSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "CounterValue"
+    },
+    {
+      "name": "ChunkEnable",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "ChunkSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "SequencerSetActive"
+    },
+    {
+      "name": "ChunkEnable",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "ChunkSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "PayloadCRC16"
+    },
+    {
+      "name": "ChunkEnable",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "ChunkSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Timestamp"
+    },
+    {
+      "name": "EventSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "ExposureEnd"
+    },
+    {
+      "name": "EventNotification",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "EventSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "FrameStart"
+    },
+    {
+      "name": "EventNotification",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "EventSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "FrameBurstStart"
+    },
+    {
+      "name": "EventNotification",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "EventSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "FrameStartOvertrigger"
+    },
+    {
+      "name": "EventNotification",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "EventSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "FrameBurstStartOvertrigger"
+    },
+    {
+      "name": "EventNotification",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "EventSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "CriticalTemperature"
+    },
+    {
+      "name": "EventNotification",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "EventSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "OverTemperature"
+    },
+    {
+      "name": "EventNotification",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "EventSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "FrameStartWait"
+    },
+    {
+      "name": "EventNotification",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "EventSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "FrameBurstStartWait"
+    },
+    {
+      "name": "EventNotification",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Off"
+    },
+    {
+      "name": "EventSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "ExposureEnd"
+    },
+    {
+      "name": "TriggerEventTest",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": null
+    },
+    {
+      "name": "UserSetDefault",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": "Default"
+    },
+    {
+      "name": "PayloadSize",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 1497600
+    },
+    {
+      "name": "BslUSBSpeedMode",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": "SuperSpeed"
+    },
+    {
+      "name": "SIPayloadTransferSize",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 262144
+    },
+    {
+      "name": "SIPayloadTransferCount",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 5
+    },
+    {
+      "name": "SIPayloadFinalTransfer1Size",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 186880
+    },
+    {
+      "name": "SIPayloadFinalTransfer2Size",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "TestPendingAck",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "DeviceVendorName",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": "Basler"
+    },
+    {
+      "name": "DeviceModelName",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": "acA2500-60um"
+    },
+    {
+      "name": "DeviceManufacturerInfo",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": ""
+    },
+    {
+      "name": "DeviceVersion",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": "107257-12"
+    },
+    {
+      "name": "DeviceFirmwareVersion",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": "107257-12;U;acA2500_60um;V1.4-4;0"
+    },
+    {
+      "name": "DeviceSerialNumber",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": "40047325"
+    },
+    {
+      "name": "DeviceUserID",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": ""
+    },
+    {
+      "name": "DeviceScanType",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": "Areascan"
+    },
+    {
+      "name": "TimestampLatchValue",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 4101684223041
+    },
+    {
+      "name": "DeviceLinkSpeed",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 500000000
+    },
+    {
+      "name": "DeviceLinkThroughputLimitMode",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "On"
+    },
+    {
+      "name": "DeviceLinkThroughputLimit",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 300000000
+    },
+    {
+      "name": "DeviceLinkCurrentThroughput",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 149768400
+    },
+    {
+      "name": "DeviceTemperature",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 54.0
+    },
+    {
+      "name": "TemperatureState",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": "Ok"
+    },
+    {
+      "name": "DeviceSFNCVersionMajor",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 2
+    },
+    {
+      "name": "DeviceSFNCVersionMinor",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 1
+    },
+    {
+      "name": "DeviceSFNCVersionSubMinor",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "UserDefinedValueSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Value1"
+    },
+    {
+      "name": "UserDefinedValue",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0
+    },
+    {
+      "name": "UserDefinedValueSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Value2"
+    },
+    {
+      "name": "UserDefinedValue",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0
+    },
+    {
+      "name": "UserDefinedValueSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Value3"
+    },
+    {
+      "name": "UserDefinedValue",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0
+    },
+    {
+      "name": "UserDefinedValueSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Value4"
+    },
+    {
+      "name": "UserDefinedValue",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0
+    },
+    {
+      "name": "UserDefinedValueSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Value5"
+    },
+    {
+      "name": "UserDefinedValue",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": 0
+    },
+    {
+      "name": "UserDefinedValueSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Value1"
+    },
+    {
+      "name": "RemoveParameterLimitSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Gain"
+    },
+    {
+      "name": "RemoveParameterLimit",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "RemoveParameterLimitSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "ExposureTime"
+    },
+    {
+      "name": "RemoveParameterLimit",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "RemoveParameterLimitSelector",
+      "paramMap": "main",
+      "readOnly": false,
+      "value": "Gain"
+    },
+    {
+      "name": "ExpertFeatureAccessKey",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "FileOpenMode",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": "Read"
+    },
+    {
+      "name": "FileAccessOffset",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "FileAccessLength",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "FileOperationStatus",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": "Success"
+    },
+    {
+      "name": "FileOperationResult",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "FileSize",
+      "paramMap": "main",
+      "readOnly": true,
+      "value": 16
+    },
+    {
+      "name": "NumBuffer",
+      "paramMap": "eventGrabber",
+      "readOnly": false,
+      "value": 20
+    },
+    {
+      "name": "NumMaxQueuedUrbs",
+      "paramMap": "eventGrabber",
+      "readOnly": false,
+      "value": 5
+    },
+    {
+      "name": "TransferLoopThreadPriority",
+      "paramMap": "eventGrabber",
+      "readOnly": false,
+      "value": 26
+    },
+    {
+      "name": "Statistic_Total_Event_Count",
+      "paramMap": "eventGrabber",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "Statistic_Failed_Event_Count",
+      "paramMap": "eventGrabber",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "Statistic_Last_Failed_Event_Buffer_Status",
+      "paramMap": "eventGrabber",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "ID",
+      "paramMap": "info",
+      "readOnly": true,
+      "value": 1
+    },
+    {
+      "name": "LastTick",
+      "paramMap": "info",
+      "readOnly": true,
+      "value": 4115.642565807
+    },
+    {
+      "name": "LastImNr",
+      "paramMap": "info",
+      "readOnly": true,
+      "value": 1782
+    },
+    {
+      "name": "FPS",
+      "paramMap": "info",
+      "readOnly": true,
+      "value": 99.99740006562676
+    },
+    {
+      "name": "PixelFormat",
+      "paramMap": "info",
+      "readOnly": false,
+      "value": "gray"
+    },
+    {
+      "name": "ResetCommandParameter",
+      "paramMap": "info",
+      "readOnly": true,
+      "value": "DeviceReset"
+    },
+    {
+      "name": "ResultingFramerateParameter",
+      "paramMap": "info",
+      "readOnly": true,
+      "value": "ResultingFrameRate"
+    },
+    {
+      "name": "MaxNumBuffer",
+      "paramMap": "instantCamera",
+      "readOnly": false,
+      "value": 10
+    },
+    {
+      "name": "MaxNumQueuedBuffer",
+      "paramMap": "instantCamera",
+      "readOnly": false,
+      "value": 50
+    },
+    {
+      "name": "MaxNumGrabResults",
+      "paramMap": "instantCamera",
+      "readOnly": false,
+      "value": 4294967295
+    },
+    {
+      "name": "ChunkNodeMapsEnable",
+      "paramMap": "instantCamera",
+      "readOnly": false,
+      "value": true
+    },
+    {
+      "name": "StaticChunkNodeMapPoolSize",
+      "paramMap": "instantCamera",
+      "readOnly": false,
+      "value": 0
+    },
+    {
+      "name": "GrabCameraEvents",
+      "paramMap": "instantCamera",
+      "readOnly": false,
+      "value": true
+    },
+    {
+      "name": "MonitorModeActive",
+      "paramMap": "instantCamera",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "MigrationModeActive",
+      "paramMap": "instantCamera",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "NumQueuedBuffers",
+      "paramMap": "instantCamera",
+      "readOnly": true,
+      "value": 10
+    },
+    {
+      "name": "NumReadyBuffers",
+      "paramMap": "instantCamera",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "NumEmptyBuffers",
+      "paramMap": "instantCamera",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "OutputQueueSize",
+      "paramMap": "instantCamera",
+      "readOnly": true,
+      "value": 10
+    },
+    {
+      "name": "GrabLoopThreadUseTimeout",
+      "paramMap": "instantCamera",
+      "readOnly": true,
+      "value": false
+    },
+    {
+      "name": "GrabLoopThreadTimeout",
+      "paramMap": "instantCamera",
+      "readOnly": true,
+      "value": 5000
+    },
+    {
+      "name": "GrabLoopThreadPriorityOverride",
+      "paramMap": "instantCamera",
+      "readOnly": true,
+      "value": false
+    },
+    {
+      "name": "GrabLoopThreadPriority",
+      "paramMap": "instantCamera",
+      "readOnly": true,
+      "value": 1
+    },
+    {
+      "name": "InternalGrabEngineThreadPriorityOverride",
+      "paramMap": "instantCamera",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "InternalGrabEngineThreadPriority",
+      "paramMap": "instantCamera",
+      "readOnly": false,
+      "value": 25
+    },
+    {
+      "name": "ClearBufferModeEnable",
+      "paramMap": "instantCamera",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "AcquisitionStartStopExecutionEnable",
+      "paramMap": "instantCamera",
+      "readOnly": false,
+      "value": true
+    },
+    {
+      "name": "UseExtendedIdIfAvailable",
+      "paramMap": "instantCamera",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "BufferHandlingMode",
+      "paramMap": "instantCamera",
+      "readOnly": true,
+      "value": "Pool"
+    },
+    {
+      "name": "MaxNumBuffer",
+      "paramMap": "streamGrabber",
+      "readOnly": false,
+      "value": 10
+    },
+    {
+      "name": "MaxBufferSize",
+      "paramMap": "streamGrabber",
+      "readOnly": false,
+      "value": 1497600
+    },
+    {
+      "name": "MaxTransferSize",
+      "paramMap": "streamGrabber",
+      "readOnly": false,
+      "value": 262144
+    },
+    {
+      "name": "NumMaxQueuedUrbs",
+      "paramMap": "streamGrabber",
+      "readOnly": false,
+      "value": 64
+    },
+    {
+      "name": "TransferLoopThreadPriority",
+      "paramMap": "streamGrabber",
+      "readOnly": false,
+      "value": 25
+    },
+    {
+      "name": "TransferTimeout",
+      "paramMap": "streamGrabber",
+      "readOnly": false,
+      "value": 4000
+    },
+    {
+      "name": "Statistic_Total_Buffer_Count",
+      "paramMap": "streamGrabber",
+      "readOnly": true,
+      "value": 1783
+    },
+    {
+      "name": "Statistic_Failed_Buffer_Count",
+      "paramMap": "streamGrabber",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "Statistic_Last_Failed_Buffer_Status",
+      "paramMap": "streamGrabber",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "Statistic_Last_Failed_Buffer_Status_Text",
+      "paramMap": "streamGrabber",
+      "readOnly": true,
+      "value": ""
+    },
+    {
+      "name": "Statistic_Missed_Frame_Count",
+      "paramMap": "streamGrabber",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "Statistic_Resynchronization_Count",
+      "paramMap": "streamGrabber",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "Statistic_Last_Block_Id",
+      "paramMap": "streamGrabber",
+      "readOnly": true,
+      "value": 1782
+    },
+    {
+      "name": "Statistic_Out_Of_Memory_Error_Count",
+      "paramMap": "streamGrabber",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "MigrationModeEnable",
+      "paramMap": "transportLayer",
+      "readOnly": false,
+      "value": false
+    },
+    {
+      "name": "Statistic_Read_Pipe_Reset_Count",
+      "paramMap": "transportLayer",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "Statistic_Write_Pipe_Reset_Count",
+      "paramMap": "transportLayer",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "Statistic_Read_Operations_Failed_Count",
+      "paramMap": "transportLayer",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "Statistic_Write_Operations_Failed_Count",
+      "paramMap": "transportLayer",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "Statistic_Last_Error_Status",
+      "paramMap": "transportLayer",
+      "readOnly": true,
+      "value": 0
+    },
+    {
+      "name": "Statistic_Last_Error_Status_Text",
+      "paramMap": "transportLayer",
+      "readOnly": true,
+      "value": ""
+    }
+  ]
+}

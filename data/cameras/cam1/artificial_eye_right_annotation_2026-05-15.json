@@ -1,0 +1,46 @@
+{
+  "binocular_mode": false,
+  "manual": {
+    "pupil_points": [],
+    "limbus_points": [],
+    "eyelid_contour_points": [],
+    "glint_points": [],
+    "pupil_ellipse": null,
+    "limbus_ellipse": null
+  },
+  "detections": {
+    "threshold_pupil": {
+      "params": {
+        "pupil_threshold": 20,
+        "pupil_center_method": "convex_hull_centroid",
+        "pupil_roi": [
+          688.9652684835573,
+          209.93011248271992,
+          339.55138998882876,
+          290.94341092403806
+        ],
+        "min_ellipse_fit_enabled": true,
+        "min_ellipse_fit_pct": 80,
+        "min_roundness_enabled": false,
+        "min_roundness_pct": 70
+      },
+      "result": {
+        "center": [
+          855.0,
+          345.0
+        ],
+        "ellipse": {
+          "center": [
+            855.1943216935746,
+            344.663585837737
+          ],
+          "size": [
+            158.0928955078125,
+            169.5189971923828
+          ],
+          "angle": 130.72186279296875
+        }
+      }
+    }
+  }
+}

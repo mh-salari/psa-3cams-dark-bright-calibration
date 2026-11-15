@@ -1,0 +1,93 @@
+{
+  "cam1": {
+    "_source": {
+      "left_eye": {
+        "annotation": "cameras/cam1/artificial_eye_left_annotation.json",
+        "ellipse_size_px": [
+          153.6517,
+          167.9587
+        ],
+        "image": "cameras/cam1/artificial_eye_left.png",
+        "method": "eye-annotation-tool/pupil",
+        "pupil_diameter_px": 167.9587,
+        "pupil_mm": 7.0,
+        "timestamp": "2026-06-19T15:21:46.053657+00:00"
+      },
+      "right_eye": {
+        "annotation": "cameras/cam1/artificial_eye_right_annotation.json",
+        "ellipse_size_px": [
+          153.379,
+          167.5444
+        ],
+        "image": "cameras/cam1/artificial_eye_right.png",
+        "method": "eye-annotation-tool/pupil",
+        "pupil_diameter_px": 167.5444,
+        "pupil_mm": 7.0,
+        "timestamp": "2026-06-19T15:21:46.114596+00:00"
+      }
+    },
+    "left_eye": 23.99410138811384,
+    "mode": "image_px_per_mm",
+    "right_eye": 23.93491690499442
+  },
+  "cam2": {
+    "_source": {
+      "left_eye": {
+        "annotation": "cameras/cam2/artificial_eye_left_annotation.json",
+        "ellipse_size_px": [
+          139.7525,
+          143.3014
+        ],
+        "image": "cameras/cam2/artificial_eye_left.png",
+        "method": "eye-annotation-tool/pupil",
+        "pupil_diameter_px": 143.3014,
+        "pupil_mm": 7.0,
+        "timestamp": "2026-06-19T15:21:46.174025+00:00"
+      },
+      "right_eye": {
+        "annotation": "cameras/cam2/artificial_eye_right_annotation.json",
+        "ellipse_size_px": [
+          144.3984,
+          147.5027
+        ],
+        "image": "cameras/cam2/artificial_eye_right.png",
+        "method": "eye-annotation-tool/pupil",
+        "pupil_diameter_px": 147.5027,
+        "pupil_mm": 7.0,
+        "timestamp": "2026-06-19T15:21:46.230679+00:00"
+      }
+    },
+    "left_eye": 20.471623011997767,
+    "mode": "image_px_per_mm",
+    "right_eye": 21.07181876046317
+  },
+  "eyelink1000plus": {
+    "_source": {
+      "left_eye": {
+        "from": "eyelink1000plus_units_per_mm.json",
+        "raw_diameter": {
+          "calibration_file": "data/eyelink1000plus/artificial_eye_left.json",
+          "constant": 13.8282,
+          "known_diameter_mm": 7.0,
+          "mean_units": 96.7971,
+          "n_samples": 10014,
+          "sd_units": 0.4174
+        }
+      },
+      "right_eye": {
+        "from": "eyelink1000plus_units_per_mm.json",
+        "raw_diameter": {
+          "calibration_file": "data/eyelink1000plus/artificial_eye_right.json",
+          "constant": 13.7623,
+          "known_diameter_mm": 7.0,
+          "mean_units": 96.3363,
+          "n_samples": 10015,
+          "sd_units": 0.378
+        }
+      }
+    },
+    "left_eye": 13.8282,
+    "mode": "raw_diameter_units_per_mm",
+    "right_eye": 13.7623
+  }
+}

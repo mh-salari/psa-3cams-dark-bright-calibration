@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.ruff_cache/
+.DS_Store
+
+# Participant recordings are personal data and are not published.
+data/participant_*/
+data/_annotation_backups/
+
+# Generated figures. The diagnostic ones show eye images of participants.
+/output/

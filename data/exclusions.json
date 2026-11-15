@@ -1,0 +1,10 @@
+{
+  "participant_935": {
+    "exclude": "all",
+    "reason": "dark calibration failed: pupil dilated beyond the eyelids; recording stopped before usable data was collected"
+  },
+  "participant_111": {
+    "exclude_cameras": ["cam2"],
+    "reason": "upper eyelid covered the pupil in the dark condition; cam2 frames not usable"
+  }
+}

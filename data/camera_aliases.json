@@ -1,0 +1,12 @@
+{
+  "Basler_acA2500-60um_40047325": {
+    "alias": "cam1",
+    "friendly_name": "Basler acA2500-60um (40047325)",
+    "role": "matched to the EyeLink 1000 Plus IR camera position; same axes as the EyeLink camera frame."
+  },
+  "Basler_acA2500-60um_40014775": {
+    "alias": "cam2",
+    "friendly_name": "Basler acA2500-60um (40014775)",
+    "role": "head-on, eye-height, centred laterally between the two eyes; axes aligned with the participant's eyes."
+  }
+}

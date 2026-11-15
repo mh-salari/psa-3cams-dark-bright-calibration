@@ -1,0 +1,24 @@
+{
+  "eyelink1000plus": {
+    "calibration_area_scale": [
+      0.70,
+      1
+    ],
+    "validation_area_scale": [
+      0.70,
+      1
+    ],
+    "_note_area_scale": "[x_scale, y_scale] multipliers applied to pyelink's default area proportion (0.88, 0.83). Final calibration_area_proportion = [x_scale * 0.88, y_scale * 0.83]. Two values so horizontal and vertical can be pulled in independently (e.g. [0.75, 0.85] tightens x more than y).",
+    "calibration_corner_scaling": 0.75,
+    "validation_corner_scaling": 0.75
+  },
+  "experiment": {
+    "dark_adaptation_duration_s": 30,
+    "bright_adaptation_duration_s": 15
+  },
+  "video": {
+    "encoder": "h264_videotoolbox",
+    "crf": "23",
+    "preset": "veryfast"
+  }
+}

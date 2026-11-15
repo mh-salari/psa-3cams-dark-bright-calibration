@@ -1,0 +1,37 @@
+{
+  "mode": "area",
+  "left_eye": {
+    "constant": 11.7749,
+    "calibration_file": "data/eyelink1000plus/artificial_eye_left.json",
+    "known_diameter_mm": 7.0,
+    "n_samples": 10020,
+    "mean_units": 6793.7344,
+    "sd_units": 31.5257
+  },
+  "right_eye": {
+    "constant": 11.9701,
+    "calibration_file": "data/eyelink1000plus/artificial_eye_right.json",
+    "known_diameter_mm": 7.0,
+    "n_samples": 10021,
+    "mean_units": 7020.8277,
+    "sd_units": 27.5573
+  },
+  "raw_diameter": {
+    "left_eye": {
+      "constant": 13.8282,
+      "calibration_file": "data/eyelink1000plus/artificial_eye_left.json",
+      "known_diameter_mm": 7.0,
+      "n_samples": 10014,
+      "mean_units": 96.7971,
+      "sd_units": 0.4174
+    },
+    "right_eye": {
+      "constant": 13.7623,
+      "calibration_file": "data/eyelink1000plus/artificial_eye_right.json",
+      "known_diameter_mm": 7.0,
+      "n_samples": 10015,
+      "mean_units": 96.3363,
+      "sd_units": 0.378
+    }
+  }
+}
